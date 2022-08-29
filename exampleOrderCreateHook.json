@@ -1,0 +1,188 @@
+{
+  "orderId": 1,
+  "cartId": "a978ee3d-b7bf-468a-b84b-28f1d6366abc",
+  "currency": {
+    "name": "string",
+    "code": "string",
+    "symbol": "string",
+    "decimalPlaces": 0
+  },
+  "isTaxIncluded": true,
+  "baseAmount": -1.7976931348623157e+308,
+  "discountAmount": -3.402823669209385e+38,
+  "giftWrappingCostTotal": 0,
+  "orderAmount": -1.7976931348623157e+308,
+  "orderAmountAsInteger": -1.7976931348623157e+308,
+  "coupons": [
+    {
+      "id": "string",
+      "code": "string",
+      "displayName": "string",
+      "couponType": "string",
+      "discountedAmount": 0
+    }
+  ],
+  "lineItems": [
+    {
+      "physicalItems": [
+        {
+          "id": "string",
+          "parentId": "string",
+          "variantId": 0,
+          "productId": 0,
+          "sku": "string",
+          "name": "string",
+          "url": "string",
+          "quantity": 0,
+          "isTaxable": true,
+          "imageUrl": "string",
+          "discounts": {},
+          "discountAmount": 0,
+          "couponAmount": 0,
+          "listPrice": 0,
+          "salePrice": 0,
+          "extendedListPrice": 0,
+          "extendedSalePrice": 0,
+          "type": "string",
+          "addedByPromotion": true,
+          "isShippingRequired": true,
+          "giftWrapping": {
+            "name": "string",
+            "message": "string",
+            "amount": 0
+          },
+          "categories": [
+            {}
+          ]
+        }
+      ],
+      "digitalItems": [
+        {
+          "id": "string",
+          "parentId": "string",
+          "variantId": 0,
+          "productId": 0,
+          "sku": "string",
+          "name": "string",
+          "url": "string",
+          "quantity": 0,
+          "isTaxable": true,
+          "imageUrl": "string",
+          "discounts": [
+            {
+              "coupon": 8.28
+            }
+          ],
+          "discountAmount": 0,
+          "couponAmount": 0,
+          "listPrice": 0,
+          "salePrice": 0,
+          "extendedListPrice": 0,
+          "extendedSalePrice": 0,
+          "type": "string",
+          "downloadFileUrls": [
+            "string"
+          ],
+          "downloadPageUrl": "string",
+          "downloadSize": "string",
+          "categories": [
+            {}
+          ]
+        }
+      ],
+      "giftCertificate": [
+        {
+          "name": "string",
+          "quantity": 0,
+          "isTaxable": true,
+          "amount": 0,
+          "type": "string"
+        }
+      ]
+    }
+  ],
+  "customerId": "string",
+  "billingAddress": {
+    "firstName": "string",
+    "lastName": "string",
+    "email": "string",
+    "company": "string",
+    "address1": "string",
+    "address2": "string",
+    "city": "string",
+    "stateOrProvince": "string",
+    "stateOrProvinceCode": "string",
+    "country": "string",
+    "countryCode": "string",
+    "postalCode": "string",
+    "phone": "string",
+    "customFields": [
+      {
+        "fieldId": "string",
+        "fieldValue": "string"
+      }
+    ]
+  },
+  "status": "INCOMPLETE",
+  "hasDigitalItems": true,
+  "isDownloadable": true,
+  "isComplete": true,
+  "customerMessage": "string",
+  "shippingCostTotal": 0,
+  "shippingCostBeforeDiscount": 0,
+  "handlingCostTotal": 0,
+  "customerCanBeCreated": true,
+  "taxes": [
+    {
+      "name": "string",
+      "amount": 0
+    }
+  ],
+  "taxTotal": 0,
+  "channelId": 0,
+  "consignments": {
+    "shipping": [
+      {
+        "lineItems": [
+          {
+            "id": 4
+          }
+        ],
+        "shippingAddressId": 1,
+        "firstName": "first1",
+        "lastName": "last1",
+        "company": "company1",
+        "address1": "2802 Skyway Cir",
+        "address2": "Balcony",
+        "city": "Austin",
+        "stateOrProvince": "Texas",
+        "postalCode": "78704",
+        "country": "United States",
+        "countryCode": "US",
+        "email": "first1@bigcommerce.com",
+        "phone": "0410123452",
+        "itemsTotal": 1,
+        "itemsShipped": 0,
+        "shippingMethod": "Flat Rate",
+        "baseCost": 15.5,
+        "costExTax": 15.5,
+        "costIncTax": 16.7,
+        "costTax": 1.2,
+        "costTaxClassId": 2,
+        "baseHandlingCost": 0,
+        "handlingCostExTax": 0,
+        "handlingCostIncTax": 0,
+        "handlingCostTax": 0,
+        "handlingCostTaxClassId": 2,
+        "shippingZoneId": 1,
+        "shippingZoneName": "United States",
+        "customFields": [
+          {
+            "name": "special note",
+            "value": "super rare"
+          }
+        ]
+      }
+    ]
+  }
+}

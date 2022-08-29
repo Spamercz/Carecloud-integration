@@ -1,0 +1,7 @@
+# Carecloud-integration
+
+This is example integration BigCommerce with CareCloud.
+
+This application can handle three types of hooks from BigCommerce and process them.
+
+After some internal logic, CareCloud API is called with prepared data.

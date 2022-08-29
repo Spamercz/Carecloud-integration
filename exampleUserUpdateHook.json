@@ -1,0 +1,10 @@
+{
+  "id": 142,
+  "firstName": "Alice",
+  "customFields": [
+    {
+      "fieldId": "CareCloud",
+      "fieldValue": "8fdce3475560d56e95a6ab035r"
+    }
+  ]
+}
